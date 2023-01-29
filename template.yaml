@@ -35,7 +35,7 @@ Resources:
         DestinationConfig:
           OnSuccess:
             Type: SNS
-            Destination: arn:aws:sns:us-east-1:666680140343:B2202-Topic
+            Destination: arn:aws:sns:us-east-1:346091724319:BillingAlarm
 #          OnFailure:
 #            Type: Lambda
 #            Destination: !GetAtt DestinationLambda.Arn
@@ -59,7 +59,7 @@ Resources:
         DestinationConfig:
           OnSuccess:
             Type: SNS
-            Destination: arn:aws:sns:us-east-1:666680140343:B2202-Topic
+            Destination: arn:aws:sns:us-east-1:346091724319:BillingAlarm
         #          OnFailure:
         #            Type: Lambda
         #            Destination: !GetAtt DestinationLambda.Arn
